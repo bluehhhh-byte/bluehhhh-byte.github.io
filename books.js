@@ -9,12 +9,12 @@ window.BOOKS = [
     genre: '로맨틱 코미디',
     format: '단편 시나리오',
     chapters: 10,
-    audio: false,
+    audio: true,
     year: '2026.11',
     url: '/side-by-side/',
     cover: 'covers/side-by-side.webp',
     key: 'side_by_side_progress_v1',
-    tags: ['곡성', '기상캐스터', '주유소', '기후', '사투리'],
+    tags: ['곡성', '기상캐스터', '주유소', '기후', '사투리', '오디오북'],
     synopsis: '날씨를 말하는 여자와 날씨에 대비하는 남자. 섬진강 국도변 주유소에서 시작된 사랑이, 서울로 ‘올라가는’ 꿈과 고향으로 ‘내려온’ 삶 사이에서 말 한마디에 흔들린다. 극한호우의 밤, 두 사람은 서로 모른 채 같은 비를 막는다.'
   },
   {
