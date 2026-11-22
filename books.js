@@ -3,6 +3,21 @@
 // key = 각 리더 사이트의 이어 읽기 저장 키(같은 origin이라 그대로 읽힌다)
 window.BOOKS = [
   {
+    id: 'pink-on-the-line',
+    title: '핑크의 통화',
+    subtitle: '마주 보면 사라지는 말',
+    genre: '로맨틱 스릴러',
+    format: '단편 시나리오',
+    chapters: 5,
+    audio: false,
+    year: '2026.11',
+    url: '/pink-on-the-line/',
+    cover: 'covers/pink-on-the-line.webp',
+    key: 'pink_on_the_line_progress_v1',
+    tags: ['로맨스', '특촬물', '보이스톡', '듀스'],
+    synopsis: '만나면 순한 연인이 보이스톡에서는 마스크맨 핑크처럼 남자를 몰아붙인다. 남자는 그녀의 두 모습을 따라가다, 서로가 말하지 못한 것과 잘못 들은 것을 알아간다.'
+  },
+  {
     id: 'naranhi',
     title: '나란히',
     subtitle: '예보에 없던 사람',
