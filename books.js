@@ -3,6 +3,21 @@
 // key = 각 리더 사이트의 이어 읽기 저장 키(같은 origin이라 그대로 읽힌다)
 window.BOOKS = [
   {
+    id: 'pink-on-call',
+    title: '핑크는 통화 중',
+    subtitle: '',
+    genre: '로맨틱 스릴러',
+    format: '단편 시나리오',
+    chapters: 5,
+    audio: false,
+    year: '2026.11',
+    url: '/pink-on-call/',
+    cover: 'covers/pink-on-call.webp',
+    key: 'pink_on_call_progress_v1',
+    tags: ['보이스톡', '특촬물', '마스크맨', '듀스'],
+    synopsis: '어느 날 여자친구의 프로필이 마스크맨 핑크로 바뀐다. 보이스톡에서는 한마디도 놓치지 않고 몰아붙이고, 만나면 모든 걸 기억한 채 순하게 웃는 그녀. 매일 밤 머릿속에서 악당처럼 쓰러지던 남자는, 1년 전 자신이 무심코 한 말 한마디와 다시 마주한다.'
+  },
+  {
     id: 'naranhi',
     title: '나란히',
     subtitle: '예보에 없던 사람',
