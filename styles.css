@@ -66,6 +66,8 @@ img { display: block; max-width: 100%; height: auto; }
 /* 장르 배너 */
 .banner { position: absolute; top: 8px; left: 0; padding: 3px 10px 3px 8px; border-radius: 0 4px 4px 0; font-size: 0.7rem; font-weight: 800; letter-spacing: 0.06em; color: #1a1408; background: var(--accent); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); }
 .banner.is-script { background: var(--script); color: #200d05; }
+.age19 { position: absolute; top: 8px; right: 8px; width: 26px; height: 26px; display: grid; place-items: center; border-radius: 50%; background: #c8322c; color: #fff; font-size: 0.72rem; font-weight: 800; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); }
+.sheet-poster .age19 { top: 6px; right: 6px; width: 22px; height: 22px; font-size: 0.62rem; }
 
 /* 이어 읽기 카드 */
 .card-cont::after { content: ''; position: absolute; inset: 45% 0 0; background: linear-gradient(transparent, rgba(7, 10, 22, 0.95)); }

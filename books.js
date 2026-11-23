@@ -3,6 +3,22 @@
 // key = 각 리더 사이트의 이어 읽기 저장 키(같은 origin이라 그대로 읽힌다)
 window.BOOKS = [
   {
+    id: 'two-attack',
+    title: '투 어택',
+    subtitle: '두 번째 공을, 처음으로 나에게',
+    genre: '멜로',
+    format: '단편소설',
+    chapters: 6,
+    audio: false,
+    adult: true,
+    year: '2026.11',
+    url: '/two-attack/',
+    cover: 'covers/two-attack.webp',
+    key: 'two_attack_progress_v1',
+    tags: ['19', '배구', '세터', '포커', '이스탄불', '단편선 순간들'],
+    synopsis: '스물두 해 동안 남에게 공을 올려 주기만 한 마흔 살 세터 세브다. 이스탄불의 한 시즌, 첫 주전 경기에서 이긴 밤 그녀는 지하 장비실로 낯선 도박사의 손목을 끌고 내려간다. 훈련 멍 사이에 섞여 아무도 모르는 흔적들, 재벌 2세의 내기, 승부 조작 의혹. 오직 나만이 나를 부술 수 있다는 걸 증명하기까지.'
+  },
+  {
     id: 'pink-on-call',
     title: '핑크는 통화 중',
     subtitle: '',

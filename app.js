@@ -16,7 +16,8 @@
     } catch (e) { return null; }
   }
 
-  const banner = (b) => `<span class="banner ${b.format.includes('시나리오') ? 'is-script' : 'is-novel'}">${esc(b.format)}</span>`;
+  const banner = (b) => `<span class="banner ${b.format.includes('시나리오') ? 'is-script' : 'is-novel'}">${esc(b.format)}</span>` +
+    (b.adult ? '<span class="age19" title="19세 이상">19</span>' : '');
   const meta = (b) => [b.genre, b.format, `${b.chapters}장`, b.audio ? '오디오북' : '', b.year].filter(Boolean).map(esc).join('<i>·</i>');
   const shown = () => (current === '전체' ? BOOKS : BOOKS.filter((b) => b.genre === current));
 
