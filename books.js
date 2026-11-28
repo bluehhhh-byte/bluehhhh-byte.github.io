@@ -22,7 +22,7 @@ window.BOOKS = [
     id: 'pink-on-call',
     title: '핑크는 통화 중',
     subtitle: '',
-    genre: '로맨틱 스릴러',
+    genre: '로맨틱 코미디',
     format: '단편 시나리오',
     chapters: 6,
     audio: true,
